@@ -1,0 +1,14 @@
+[project]
+name = "https-server"
+version = "0.1.0"
+description = "Learning project: HTTP server implementation from scratch"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+http-server = "https_server.server:main"

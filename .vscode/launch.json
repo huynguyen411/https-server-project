@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: HTTP Server (main.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: HTTP Server (direct)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/https_server/server.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
