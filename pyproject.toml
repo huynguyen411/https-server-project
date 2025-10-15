@@ -12,3 +12,5 @@ build-backend = "hatchling.build"
 
 [project.scripts]
 http-server = "https_server.server:main"
+https-server = "https_server.https_server:main"
+generate-cert = "https_server.generate_cert:main"
